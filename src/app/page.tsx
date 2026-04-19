@@ -159,7 +159,7 @@ export default function Home() {
             {/* Logo */}
             <a href="#home" className="flex items-center gap-2">
               <Sparkles className="w-6 h-6 text-[#B76E79]" />
-              <span className="font-script text-2xl sm:text-3xl text-[#3D2B1F]">Glow by Design</span>
+              <span className="font-script text-2xl sm:text-3xl text-[#3D2B1F]">Ira Artistry</span>
             </a>
 
             {/* Desktop Nav */}
@@ -677,7 +677,7 @@ export default function Home() {
             <div className="sm:col-span-2 lg:col-span-1">
               <div className="flex items-center gap-2 mb-4">
                 <Sparkles className="w-6 h-6 text-[#FFCBA4]" />
-                <span className="font-script text-2xl text-[#FFE5D9]">Glow by Design</span>
+                <span className="font-script text-2xl text-[#FFE5D9]">Ira Artistry</span>
               </div>
               <p className="text-sm text-[#FFE5D9]/60 leading-relaxed mb-4">
                 Transforming faces and boosting confidence through the art of professional makeup. Every look is a celebration of your unique beauty.
@@ -729,7 +729,7 @@ export default function Home() {
           </div>
 
           <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-            <p className="text-xs text-[#FFE5D9]/40">&copy; {new Date().getFullYear()} Glow by Design. All rights reserved.</p>
+            <p className="text-xs text-[#FFE5D9]/40">&copy; {new Date().getFullYear()} Ira Artistry. All rights reserved.</p>
             <p className="text-xs text-[#FFE5D9]/40">Crafted with love & passion</p>
           </div>
         </div>

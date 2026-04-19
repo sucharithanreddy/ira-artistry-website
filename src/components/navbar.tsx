@@ -53,7 +53,7 @@ export default function Navbar() {
             <a href="#home" className="flex items-center gap-2 group">
               <Sparkles className={`w-6 h-6 transition-colors duration-300 ${isScrolled ? 'text-[#B76E79]' : 'text-white'}`} />
               <span className={`font-script text-2xl sm:text-3xl transition-colors duration-300 ${isScrolled ? 'text-[#3D2B1F]' : 'text-white'}`}>
-                Glow by Design
+                Ira Artistry
               </span>
             </a>
 
@@ -108,7 +108,7 @@ export default function Navbar() {
               transition={{ delay: 0.1 }}
               className="absolute top-5 left-1/2 -translate-x-1/2"
             >
-              <span className="font-script text-3xl text-[#3D2B1F]">Glow by Design</span>
+              <span className="font-script text-3xl text-[#3D2B1F]">Ira Artistry</span>
             </motion.div>
             {navLinks.map((link, i) => (
               <motion.a

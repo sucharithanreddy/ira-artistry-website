@@ -37,7 +37,7 @@ export default function AboutSection() {
               <div className="relative aspect-[3/4] rounded-3xl overflow-hidden shadow-2xl shadow-[#FFCBA4]/20">
                 <Image
                   src="/images/about-image.png"
-                  alt="Glow by Design Makeup Artist"
+                  alt="Ira Artistry Makeup Artist"
                   fill
                   className="object-cover object-center"
                 />
@@ -98,7 +98,7 @@ export default function AboutSection() {
 
             {/* Signature */}
             <div className="mt-8">
-              <span className="font-script text-3xl text-[#B76E79]">Glow by Design</span>
+              <span className="font-script text-3xl text-[#B76E79]">Ira Artistry</span>
               <p className="text-[#8B7355] text-sm mt-1 font-serif-body italic">Founder & Lead Makeup Artist</p>
             </div>
           </motion.div>

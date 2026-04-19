@@ -38,15 +38,15 @@ const greatVibes = Great_Vibes({
 });
 
 export const metadata: Metadata = {
-  title: "Glow by Design | Professional Makeup Artist",
+  title: "Ira Artistry | Professional Makeup Artist",
   description: "Where Beauty Meets Artistry. Professional makeup services for every occasion — bridal, editorial, HD, airbrush, and more. Book your transformation today.",
   keywords: ["makeup artist", "bridal makeup", "professional makeup", "HD makeup", "airbrush makeup", "beauty services"],
-  authors: [{ name: "Glow by Design" }],
+  authors: [{ name: "Ira Artistry" }],
   icons: {
     icon: "https://z-cdn.chatglm.cn/z-ai/static/logo.svg",
   },
   openGraph: {
-    title: "Glow by Design | Professional Makeup Artist",
+    title: "Ira Artistry | Professional Makeup Artist",
     description: "Where Beauty Meets Artistry. Professional makeup services for every occasion.",
     type: "website",
   },

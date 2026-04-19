@@ -9,7 +9,7 @@ const testimonials = [
     name: 'Sarah Mitchell',
     role: 'Bride',
     rating: 5,
-    text: 'Glow by Design made my wedding day absolutely perfect. The makeup lasted through tears, dancing, and every moment in between. I felt like a true princess!',
+    text: 'Ira Artistry made my wedding day absolutely perfect. The makeup lasted through tears, dancing, and every moment in between. I felt like a true princess!',
     image: 'S',
   },
   {
@@ -30,7 +30,7 @@ const testimonials = [
     name: 'Aisha Patel',
     role: 'Repeat Client',
     rating: 5,
-    text: 'I have been coming to Glow by Design for three years now. Every single time, the result exceeds my expectations. The airbrush technique is absolutely incredible.',
+    text: 'I have been coming to Ira Artistry for three years now. Every single time, the result exceeds my expectations. The airbrush technique is absolutely incredible.',
     image: 'A',
   },
   {
