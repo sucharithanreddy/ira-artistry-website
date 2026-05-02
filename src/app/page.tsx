@@ -158,7 +158,7 @@ export default function Home() {
           <div className="flex items-center justify-between h-16 sm:h-20">
             {/* Logo */}
             <a href="#home" className="flex items-center gap-2">
-              <Sparkles className="w-6 h-6 text-[#B76E79]" />
+              <Image src="/images/logo.jpeg" alt="Ira Artistry" width={40} height={40} className="rounded-full object-cover" />
               <span className="font-script text-2xl sm:text-3xl text-[#3D2B1F]">Ira Artistry</span>
             </a>
 
@@ -676,7 +676,7 @@ export default function Home() {
             {/* Brand */}
             <div className="sm:col-span-2 lg:col-span-1">
               <div className="flex items-center gap-2 mb-4">
-                <Sparkles className="w-6 h-6 text-[#FFCBA4]" />
+                <Image src="/images/logo.jpeg" alt="Ira Artistry" width={36} height={36} className="rounded-full object-cover" />
                 <span className="font-script text-2xl text-[#FFE5D9]">Ira Artistry</span>
               </div>
               <p className="text-sm text-[#FFE5D9]/60 leading-relaxed mb-4">

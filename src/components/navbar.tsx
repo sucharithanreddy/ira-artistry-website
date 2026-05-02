@@ -2,7 +2,8 @@
 
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, Sparkles } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
+import Image from 'next/image';
 
 const navLinks = [
   { label: 'Home', href: '#home' },
@@ -51,7 +52,13 @@ export default function Navbar() {
           <div className="flex items-center justify-between h-16 sm:h-20">
             {/* Logo */}
             <a href="#home" className="flex items-center gap-2 group">
-              <Sparkles className={`w-6 h-6 transition-colors duration-300 ${isScrolled ? 'text-[#B76E79]' : 'text-white'}`} />
+              <Image
+                src="/images/logo.jpeg"
+                alt="Ira Artistry"
+                width={40}
+                height={40}
+                className="rounded-full object-cover"
+              />
               <span className={`font-script text-2xl sm:text-3xl transition-colors duration-300 ${isScrolled ? 'text-[#3D2B1F]' : 'text-white'}`}>
                 Ira Artistry
               </span>
@@ -108,7 +115,10 @@ export default function Navbar() {
               transition={{ delay: 0.1 }}
               className="absolute top-5 left-1/2 -translate-x-1/2"
             >
-              <span className="font-script text-3xl text-[#3D2B1F]">Ira Artistry</span>
+              <div className="flex items-center gap-2">
+                <Image src="/images/logo.jpeg" alt="Ira Artistry" width={36} height={36} className="rounded-full object-cover" />
+                <span className="font-script text-3xl text-[#3D2B1F]">Ira Artistry</span>
+              </div>
             </motion.div>
             {navLinks.map((link, i) => (
               <motion.a
